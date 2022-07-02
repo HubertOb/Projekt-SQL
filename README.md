@@ -3,12 +3,12 @@ Projekt tworzony na przedmiot "Podstawy Baz Danych" w 3-osobowych grupach.
 
 Treść projektu: 
 
-# Opis problemu
+## Opis problemu
 
 Projekt dotyczy systemu wspomagania działalności firmy świadczącej usługi gastronomiczne dla klientów
 indywidualnych oraz firm.
 
-# Ogólne informacje
+## Ogólne informacje
 
 W ofercie jest żywność (np. ciastka, lunch, drobne przekąski) oraz napoje bezalkoholowe (np. kawa, koktajle, woda).
 Usługi świadczone są na miejscu oraz na wynos. Zamówienie na wynos może być zlecone na miejscu lub
@@ -18,7 +18,7 @@ stolika dla co najmniej dwóch osób.
 Klientami są osoby indywidualne oraz firmy (odbierają większe ilości posiłków w porze lunchu lub jako catering, bez
 dostawy). Istnieje możliwość wystawienia faktury dla danego zamówienia lub faktury zbiorczej raz na miesiąc.
 
-# Menu
+## Menu
 
 Menu ustalane jest co najmniej dziennym wyprzedzeniem. W firmie panuje zasada, że co najmniej połowa pozycji
 menu zmieniana jest co najmniej raz na dwa tygodnie.
@@ -26,7 +26,7 @@ W dniach czwartek-piątek-sobota istnieje możliwość wcześniejszego zamówien
 Z uwagi na indywidualny import takie zamówienie winno być złożone maksymalnie do poniedziałku
 poprzedzającego zamówienie.
 
-# Wcześniejsza rezerwacja zamówienia/stolika
+## Wcześniejsza rezerwacja zamówienia/stolika
 
 Internetowy formularz umożliwia klientowi indywidualnemu rezerwację stolika, przy jednoczesnym złożeniu
 zamówienia, z opcją płatności przed lub po zamówieniu, przy minimalnej wartości zamówienia WZ (np. WZ=50 zł),
@@ -35,15 +35,15 @@ potwierdzeniem zamówienia oraz wskazaniem stolika; wysyłana jest po akceptacji
 Internetowy formularz umożliwia także rezerwację stolików dla firm, w dwóch opcjach: rezerwacji stolików na firmę
 i/lub rezerwację stolików dla konkretnych pracowników firmy (imiennie).
 
-# Rabaty
+## Rabaty
 
 System umożliwia realizację programów rabatowych dla klientów indywidualnych:
 - Po realizacji ustalonej liczby zamówień Z1 (przykładowo Z1=10) za co najmniej określoną kwotę K1 (np. 30
-zł każde zamówienie): R1% (np. 3%) zniżki na wszystkie zamówienia;\n
+zł każde zamówienie): R1% (np. 3%) zniżki na wszystkie zamówienia;
 - Po realizacji zamówień za łączną kwotę K2 (np. 1000 zł): jednorazowa zniżka R2% (np. 5%) na zamówienia
 złożone przez D1 dni (np. D1 = 7), począwszy od dnia przyznania zniżki (zniżki nie łączą się).
 
-# Raporty
+## Raporty
 
 System umożliwia generowanie raportów miesięcznych i tygodniowych, dotyczących rezerwacji stolików, rabatów,
 menu, a także statystyk zamówienia – dla klientów indywidualnych oraz firm – dotyczących kwot oraz czasu
@@ -51,7 +51,7 @@ składania zamówień.
 System umożliwia także generowanie raportów dotyczących zamówień oraz rabatów dla klienta indywidualnego
 oraz firm.
 
-# Wymagane elementy w projekcie
+## Wymagane elementy w projekcie
 
 - propozycja funkcji realizowanych przez system – wraz z określeniem który użytkownik jakie funkcje może
 realizować (krótka lista);
@@ -71,7 +71,7 @@ dla różnego typu raportów;
 - propozycja oraz określenie uprawnień do danych - należy zaproponować role oraz ich uprawnienia do operacji,
 widoków, procedur.
 
-# Sprawozdanie powinno zawierać:
+## Sprawozdanie powinno zawierać:
 
 - opis funkcji systemu wraz z informacją, co jaki użytkownik może wykonywać w systemie;
 - schemat bazy danych (w postaci diagramu) + opis poszczególnych tabel (nazwy pól, typ danych i znaczenie
@@ -85,11 +85,11 @@ mieć uprawnienia.
 Projekt powinien zostać zaimplementowany przy użyciu MS SQL Server (chyba że zostało inaczej ustalone
 z prowadzącym).
 
-# Ocena zadania
+## Ocena zadania
 
 Za zadanie można otrzymać 0-10 punktów:
-- 4 pkt za schemat bazy danych;\n
-- 2 pkt za warunki integralnościowe;\n
-- 3 pkt za procedury, triggery, widoki;\n
+- 4 pkt za schemat bazy danych;
+- 2 pkt za warunki integralnościowe;
+- 3 pkt za procedury, triggery, widoki;
 - 1 pkt - inne (indeksy, uprawnienia...).
 Uzyskane punkty przeliczane są na ocenę wg skali obowiązującej w AGH.
