@@ -38,9 +38,9 @@ i/lub rezerwację stolików dla konkretnych pracowników firmy (imiennie).
 # Rabaty
 
 System umożliwia realizację programów rabatowych dla klientów indywidualnych:
-• Po realizacji ustalonej liczby zamówień Z1 (przykładowo Z1=10) za co najmniej określoną kwotę K1 (np. 30
+- Po realizacji ustalonej liczby zamówień Z1 (przykładowo Z1=10) za co najmniej określoną kwotę K1 (np. 30
 zł każde zamówienie): R1% (np. 3%) zniżki na wszystkie zamówienia;\n
-• Po realizacji zamówień za łączną kwotę K2 (np. 1000 zł): jednorazowa zniżka R2% (np. 5%) na zamówienia
+- Po realizacji zamówień za łączną kwotę K2 (np. 1000 zł): jednorazowa zniżka R2% (np. 5%) na zamówienia
 złożone przez D1 dni (np. D1 = 7), począwszy od dnia przyznania zniżki (zniżki nie łączą się).
 
 # Raporty
@@ -53,34 +53,34 @@ oraz firm.
 
 # Wymagane elementy w projekcie
 
-• propozycja funkcji realizowanych przez system – wraz z określeniem który użytkownik jakie funkcje może
+- propozycja funkcji realizowanych przez system – wraz z określeniem który użytkownik jakie funkcje może
 realizować (krótka lista);
-• projekt bazy danych;
-• zdefiniowanie bazy danych;
-• zdefiniowanie warunków integralności: wykorzystanie wartości domyślnych, ustawienie dopuszczalnych
+- projekt bazy danych;
+- zdefiniowanie bazy danych;
+- zdefiniowanie warunków integralności: wykorzystanie wartości domyślnych, ustawienie dopuszczalnych
 zakresów wartości, unikalność wartości w polach, czy dane pole może nie zostać wypełnione, złożone warunki
 integralnościowe;
-• propozycja oraz zdefiniowanie operacji na danych (procedury składowane, triggery, funkcje) - powinny zostać
+- propozycja oraz zdefiniowanie operacji na danych (procedury składowane, triggery, funkcje) - powinny zostać
 zdefiniowane procedury składowane do wprowadzania danych (także do zmian konfiguracyjnych). Należy
 stworzyć także funkcje zwracające istotne ilościowe informacje. Triggery należy wykorzystać do zapewnienia
 spójności oraz spełnienia przez system specyficznych wymagań klienta;
-• propozycja oraz zdefiniowanie struktury widoków ułatwiających dostęp do danych – widoki powinny
+- propozycja oraz zdefiniowanie struktury widoków ułatwiających dostęp do danych – widoki powinny
 prezentować dla użytkowników to, co ich najbardziej interesuje. Ponadto powinny zostać zdefiniowane widoki
 dla różnego typu raportów;
-• propozycja oraz zdefiniowanie indeksów;
-• propozycja oraz określenie uprawnień do danych - należy zaproponować role oraz ich uprawnienia do operacji,
+- propozycja oraz zdefiniowanie indeksów;
+- propozycja oraz określenie uprawnień do danych - należy zaproponować role oraz ich uprawnienia do operacji,
 widoków, procedur.
 
 # Sprawozdanie powinno zawierać:
 
-• opis funkcji systemu wraz z informacją, co jaki użytkownik może wykonywać w systemie;
-• schemat bazy danych (w postaci diagramu) + opis poszczególnych tabel (nazwy pól, typ danych i znaczenie
+- opis funkcji systemu wraz z informacją, co jaki użytkownik może wykonywać w systemie;
+- schemat bazy danych (w postaci diagramu) + opis poszczególnych tabel (nazwy pól, typ danych i znaczenie
 każdego pola, a także opis warunków integralności, jakie zostały zdefiniowane dla danego pola + kod
 generujący daną tabelę), informacja, do jakich pól stworzone są indeksy;
-• spis widoków wraz z kodem, który je tworzy oraz informacją co one przedstawiają;
-• spis procedur składowanych, triggerów, funkcji wraz z ich kodem i informacją co one robią;
-• informacje odnośnie wygenerowanych danych;
-• określenie uprawnień do danych - opis ról wraz z przyporządkowaniem do jakich elementów dana rola powinna
+- spis widoków wraz z kodem, który je tworzy oraz informacją co one przedstawiają;
+- spis procedur składowanych, triggerów, funkcji wraz z ich kodem i informacją co one robią;
+- informacje odnośnie wygenerowanych danych;
+- określenie uprawnień do danych - opis ról wraz z przyporządkowaniem do jakich elementów dana rola powinna
 mieć uprawnienia.
 Projekt powinien zostać zaimplementowany przy użyciu MS SQL Server (chyba że zostało inaczej ustalone
 z prowadzącym).
@@ -88,8 +88,8 @@ z prowadzącym).
 # Ocena zadania
 
 Za zadanie można otrzymać 0-10 punktów:
-• 4 pkt za schemat bazy danych;\n
-• 2 pkt za warunki integralnościowe;\n
-• 3 pkt za procedury, triggery, widoki;\n
-• 1 pkt - inne (indeksy, uprawnienia...).
+- 4 pkt za schemat bazy danych;\n
+- 2 pkt za warunki integralnościowe;\n
+- 3 pkt za procedury, triggery, widoki;\n
+- 1 pkt - inne (indeksy, uprawnienia...).
 Uzyskane punkty przeliczane są na ocenę wg skali obowiązującej w AGH.
