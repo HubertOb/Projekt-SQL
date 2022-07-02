@@ -39,7 +39,7 @@ i/lub rezerwację stolików dla konkretnych pracowników firmy (imiennie).
 
 System umożliwia realizację programów rabatowych dla klientów indywidualnych:
 • Po realizacji ustalonej liczby zamówień Z1 (przykładowo Z1=10) za co najmniej określoną kwotę K1 (np. 30
-zł każde zamówienie): R1% (np. 3%) zniżki na wszystkie zamówienia;
+zł każde zamówienie): R1% (np. 3%) zniżki na wszystkie zamówienia;\n
 • Po realizacji zamówień za łączną kwotę K2 (np. 1000 zł): jednorazowa zniżka R2% (np. 5%) na zamówienia
 złożone przez D1 dni (np. D1 = 7), począwszy od dnia przyznania zniżki (zniżki nie łączą się).
 
@@ -88,8 +88,8 @@ z prowadzącym).
 # Ocena zadania
 
 Za zadanie można otrzymać 0-10 punktów:
-• 4 pkt za schemat bazy danych;
-• 2 pkt za warunki integralnościowe;
-• 3 pkt za procedury, triggery, widoki;
+• 4 pkt za schemat bazy danych;\n
+• 2 pkt za warunki integralnościowe;\n
+• 3 pkt za procedury, triggery, widoki;\n
 • 1 pkt - inne (indeksy, uprawnienia...).
 Uzyskane punkty przeliczane są na ocenę wg skali obowiązującej w AGH.
